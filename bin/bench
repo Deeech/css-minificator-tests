@@ -1,0 +1,10 @@
+#!/usr/bin/env node
+var colors = require('colors');
+
+console.log('Yo-ho-ho'.rainbow);
+
+var http = require('http'),
+    config = require('../data/config.json'),
+    gulliver = require('../lib/gulliver');
+
+gulliver(config)

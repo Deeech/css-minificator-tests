@@ -1,10 +1,16 @@
 #!/usr/bin/env node
-var colors = require('colors');
-
-console.log('Yo-ho-ho'.rainbow);
-
-var http = require('http'),
+let colors = require('colors'),
     config = require('../data/config.json'),
-    gulliver = require('../lib/gulliver');
+    gulliver = require('../lib/gulliver'),
+    quotes = [
+      'I cannot but conclude that the Bulk of your Natives, to be the most pernicious Race of little odious Vermin that Nature ever suffered to crawl upon the Surface of the Earth.',
+      'Undoubtedly, philosophers are in the right when they tell us that nothing is great or little otherwise than by comparison.',
+      'The tiny Lilliputians surmise that Gulliver\'s watch may be his god, because it is that which, he admits, he seldom does anything without consulting.',
+      'Of so little weight are the greatest services to princes, when put into the balance with a refusal to gratify their passions.',
+      'Gulliver describes a royal personage inspiring awe among the tiny Lilliputians because he was taller than his brethren by the breadth of a human fingernail.'
+    ];
+
+console.log(quotes[Math.floor(Math.random()*quotes.length)].rainbow);
+
 
 gulliver(config)

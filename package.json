@@ -21,6 +21,7 @@
     "cssshrink": "^0.0.5",
     "csswring": "^5.1.0",
     "es6-promise": "^4.0.5",
+    "gemini": "^4.13.0",
     "mkdirp": "^0.5.1",
     "more-css": "^0.12.0",
     "ncss": "^1.1.1",

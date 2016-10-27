@@ -18,16 +18,11 @@ fs.access('../config.json', fs.constants.R_OK | fs.constants.W_OK, (err) => {
   if (err && err.code === 'ENOENT') {
     config = { // test config
       "pages": [
-        "http://nodejs.org"
+        "http://nodejs.org",
+        "https://wordpress.org/",
+        "https://github.com/"
       ]
     };
-    // config = {
-    //   "pages": [
-    //     "http://nodejs.org",
-    //     "https://github.com/",
-    //     "https://twitter.com/?lang=en"
-    //   ]
-    // }
   } else {
     config = require('../gulliver.config.json')
   }

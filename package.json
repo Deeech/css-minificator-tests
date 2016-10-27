@@ -2,9 +2,12 @@
   "name": "gulliver",
   "version": "1.0.0",
   "scripts": {
-    "bench": "clear && rm -rf site && node ./bin/bench"
+    "start": "npm run clean && node ./bin/run",
+    "test": "gemini test --reporter vflat --reporter html",
+    "update": "gemini update",
+    "clean": "rm -rf site/"
   },
-  "main": "lib/bench.js",
+  "main": "lib/bench",
   "repository": {
     "url": "git@github.com:Deeech/gulliver.git",
     "type": "git"

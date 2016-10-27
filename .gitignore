@@ -39,3 +39,5 @@ jspm_packages
 yarn.lock
 gemini-report
 site
+gemini/screens
+gemini/test.js

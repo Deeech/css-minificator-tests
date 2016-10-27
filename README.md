@@ -13,7 +13,7 @@ selenium-standalone install
 
 ## Usage
 ```
-npm run start
+npm start
 ```
 
 Start these commands in a separate tab before running the tests:
@@ -24,7 +24,7 @@ selenium-standalone start
 
 Run gemini tests
 ```
-npm run test
+npm test
 npm run update
 ```
 

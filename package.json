@@ -7,11 +7,16 @@
     "update": "gemini update",
     "clean": "rm -rf site/"
   },
-  "main": "lib/bench",
+  "main": "lib/run",
   "repository": {
     "url": "git@github.com:Deeech/gulliver.git",
     "type": "git"
   },
+  "keywords": [
+    "css",
+    "minification",
+    "test"
+  ],
   "author": "Eugene Zharov <deeech88@gmail.com>",
   "license": "MIT",
   "devDependencies": {
@@ -27,7 +32,6 @@
     "more-css": "^0.12.0",
     "ncss": "^1.1.1",
     "run-series": "^1.1.4",
-    "run-waterfall": "^1.1.3",
     "sqwish": "^0.2.2",
     "website-scraper": "^1.2.0",
     "ycssmin": "^1.0.1"

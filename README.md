@@ -24,8 +24,8 @@ selenium-standalone start
 
 Run gemini tests
 ```
-npm test
 npm run update
+npm test
 ```
 
 Open gemini report file `gemini-report/index.html`

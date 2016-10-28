@@ -3,8 +3,6 @@
   "version": "1.0.0",
   "scripts": {
     "start": "npm run clean && node ./bin/run",
-    "test": "gemini test --reporter vflat --reporter html",
-    "update": "gemini update",
     "clean": "rm -rf site/"
   },
   "main": "lib/run",
@@ -36,5 +34,7 @@
     "website-scraper": "^1.2.0",
     "ycssmin": "^1.0.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "open": "0.0.5"
+  }
 }

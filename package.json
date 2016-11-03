@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "start": "npm run clean && node ./bin/run",
-    "clean": "rm -rf site/ gemini/screens gemini-report",
+    "clean": "rm -rf site/ gemini/screens gemini-report dist/*",
     "deploy": "gh-pages -d dist"
   },
   "main": "lib/run",

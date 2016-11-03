@@ -4,6 +4,7 @@
   "scripts": {
     "start": "npm run clean && node ./bin/run",
     "clean": "rm -rf site/ gemini/screens gemini-report dist/*",
+    "build": "cp -r site dist/site && cp -r gemini dist/gemini && cp -r gemini-report dist/gemini-report",
     "deploy": "gh-pages -d dist"
   },
   "main": "lib/run",

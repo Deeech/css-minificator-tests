@@ -38,7 +38,7 @@ jspm_packages
 
 yarn.lock
 /gemini-report
-gulliver-report.html
+test-report.html
 /site
 /gemini/screens
 gemini/preTest.js

@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 const colors   = require('colors'),
       fs       = require('fs'),
-      gulliver = require('../lib/gulliver'),
+      cssTest = require('../lib/cssTest'),
       quotes   = [
         'I cannot but conclude that the Bulk of your Natives, to be the most pernicious Race of little odious Vermin that Nature ever suffered to crawl upon the Surface of the Earth.',
         'Undoubtedly, philosophers are in the right when they tell us that nothing is great or little otherwise than by comparison.',
@@ -24,8 +24,8 @@ fs.access('../config.json', fs.constants.R_OK | fs.constants.W_OK, (err) => {
       ]
     };
   } else {
-    config = require('../gulliver.config.json')
+    config = require('../cssTest.config.json')
   }
 
-  gulliver(config)
+  cssTest(config)
 });

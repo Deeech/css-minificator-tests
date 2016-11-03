@@ -1,9 +1,9 @@
-# gulliver
+# css-minification-tests
 
 ## Installation
 
 ```
-git clone https://github.com/Deeech/gulliver.git && cd gulliver/
+git clone https://github.com/Deeech/css-minification-tests.git && cd css-minification-tests/
 npm install
 npm install -g selenium-standalone
 npm install -g http-server

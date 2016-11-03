@@ -1,5 +1,5 @@
 {
-  "name": "gulliver",
+  "name": "css-minification-tests",
   "version": "1.0.0",
   "scripts": {
     "start": "npm run clean && node ./bin/run",
@@ -9,7 +9,7 @@
   },
   "main": "lib/run",
   "repository": {
-    "url": "git@github.com:Deeech/gulliver.git",
+    "url": "git@github.com:Deeech/css-minification-tests.git",
     "type": "git"
   },
   "keywords": [
@@ -31,12 +31,10 @@
     "gemini": "^4.13.0",
     "more-css": "^0.12.0",
     "ncss": "^1.1.1",
-    "run-series": "^1.1.4",
+    "open": "0.0.5",
+    "q": "^1.4.1",
     "sqwish": "^0.2.2",
     "website-scraper": "^1.2.0",
     "ycssmin": "^1.0.1"
-  },
-  "dependencies": {
-    "open": "0.0.5"
   }
 }

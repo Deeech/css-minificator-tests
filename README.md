@@ -1,9 +1,9 @@
-# css-minification-tests
+# css-minificator-tests
 
 ## Installation
 
 ```
-git clone https://github.com/Deeech/css-minification-tests.git && cd css-minification-tests/
+git clone https://github.com/Deeech/css-minificator-tests.git && cd css-minificator-tests/
 npm install
 npm install -g selenium-standalone
 npm install -g http-server

@@ -1,5 +1,5 @@
 {
-  "name": "css-minification-tests",
+  "name": "css-minificator-tests",
   "version": "1.0.0",
   "scripts": {
     "start": "npm run clean && node ./bin/run",
@@ -9,7 +9,7 @@
   },
   "main": "lib/run",
   "repository": {
-    "url": "git@github.com:Deeech/css-minification-tests.git",
+    "url": "git@github.com:Deeech/css-minificator-tests.git",
     "type": "git"
   },
   "keywords": [

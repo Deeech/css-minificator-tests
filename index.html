@@ -1,7 +1,7 @@
 
 <html>
   <head>
-    <title>Css minification tests</title>
+    <title>CSS minificator tests</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -9,14 +9,39 @@
       td {
         padding: 10px !important;
       }
+      .social-links li {
+        padding: 10px;
+      }
     </style>
   <head>
   </head></head><body>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">CSS minificator tests</a>
+        </div>
+        <div class="navbar-right">
+          <ul class="nav navbar-nav social-links">
+            <li>
+              <a class="github-button" href="https://github.com/Deeech" data-style="mega" aria-label="Follow @Deeech on GitHub">Follow @Deeech</a>
+            </li>
+            <li>
+              <a class="github-button" href="https://github.com/Deeech/css-minification-tests" data-icon="octicon-star" data-style="mega" aria-label="Star Deeech/css-minification-tests on GitHub">Star</a>
+            </li>
+            <li>
+              <a class="github-button" href="https://github.com/Deeech/css-minification-tests/issues" data-icon="octicon-issue-opened" data-style="mega" aria-label="Issue Deeech/css-minification-tests on GitHub">Issue</a>
+            </li>
+          </ul>
+        </div>
+      </div><!-- /.container-fluid -->
+    </nav>
     <div class="container">
       <div class="row">
         <div class="col-md-12" id="container">
-          <a href="gemini-report/index.html">SCREENSHOTS</a>
-
+          <p>
+            Here you can see results of a minificatiors tests. The script downloads a few sites, compress their css files and then launches screenshot testing all sites using <a href="https://github.com/gemini-testing/gemini">gemini</a>. You can view more details under the spoilers.
+          </p>
+        
 <div class="panel panel-success" style="margin-top: 10px;">
   <div class="panel-heading">
     <h4 class="panel-title">
@@ -44,13 +69,13 @@
 <div class="panel panel-danger" style="margin-top: 10px;">
   <div class="panel-heading">
     <h4 class="panel-title">
-    <a data-toggle="collapse" href="#panel-collapse-3">crass - Failed!</a>
+    <a data-toggle="collapse" href="#panel-collapse-3">crass - 1/3 Failed! - There are diffs</a>
     </h4>
   </div>
   <div id="panel-collapse-3" class="panel-collapse collapse">
     <div class="panel-body">
 
-
+    
 <div class="panel panel-success" style="margin-top: 10px;">
   <div class="panel-heading">
     <h4 class="panel-title">
@@ -84,9 +109,9 @@
   <div id="panel-collapse-6" class="panel-collapse collapse">
     <div class="panel-body">
 
-
+    
 <div class="error">
-  <a href="site/github.com/css/github-1a723b55b2ef1be875b55a21594ed7186180bb2530537ef3b195039fd4be0228.css">github-1a723b55b2ef1be875b55a21594ed7186180bb2530537ef3b195039fd4be0228.css</a><br>
+  <a href="site/github.com/css/github-fb3f5ff93b051ac1e6146d6a27dc2f57e11f1b9b36a7f15bbd84aacdb65ec3a8.css">github-fb3f5ff93b051ac1e6146d6a27dc2f57e11f1b9b36a7f15bbd84aacdb65ec3a8.css</a><br>
   <pre style="word-wrap: break-word;">Parse error on line 1:
 ...kit-linear-gradient();background-image:l
 -----------------------^
@@ -100,13 +125,13 @@ Expecting &apos;STRING&apos;, &apos;IDENT&apos;, &apos;S&apos;, &apos;(&apos;, &
 <div class="panel panel-danger" style="margin-top: 10px;">
   <div class="panel-heading">
     <h4 class="panel-title">
-    <a data-toggle="collapse" href="#panel-collapse-7">crass_o1_off - Failed!</a>
+    <a data-toggle="collapse" href="#panel-collapse-7">crass_o1_off - 1/3 Failed! - There are diffs</a>
     </h4>
   </div>
   <div id="panel-collapse-7" class="panel-collapse collapse">
     <div class="panel-body">
 
-
+    
 <div class="panel panel-success" style="margin-top: 10px;">
   <div class="panel-heading">
     <h4 class="panel-title">
@@ -140,9 +165,9 @@ Expecting &apos;STRING&apos;, &apos;IDENT&apos;, &apos;S&apos;, &apos;(&apos;, &
   <div id="panel-collapse-10" class="panel-collapse collapse">
     <div class="panel-body">
 
-
+    
 <div class="error">
-  <a href="site/github.com/css/github-1a723b55b2ef1be875b55a21594ed7186180bb2530537ef3b195039fd4be0228.css">github-1a723b55b2ef1be875b55a21594ed7186180bb2530537ef3b195039fd4be0228.css</a><br>
+  <a href="site/github.com/css/github-fb3f5ff93b051ac1e6146d6a27dc2f57e11f1b9b36a7f15bbd84aacdb65ec3a8.css">github-fb3f5ff93b051ac1e6146d6a27dc2f57e11f1b9b36a7f15bbd84aacdb65ec3a8.css</a><br>
   <pre style="word-wrap: break-word;">Parse error on line 1:
 ...kit-linear-gradient();background-image:l
 -----------------------^
@@ -156,13 +181,13 @@ Expecting &apos;STRING&apos;, &apos;IDENT&apos;, &apos;S&apos;, &apos;(&apos;, &
 <div class="panel panel-danger" style="margin-top: 10px;">
   <div class="panel-heading">
     <h4 class="panel-title">
-    <a data-toggle="collapse" href="#panel-collapse-11">css-condense - Failed!</a>
+    <a data-toggle="collapse" href="#panel-collapse-11">css-condense - 0/3 Failed! - There are diffs</a>
     </h4>
   </div>
   <div id="panel-collapse-11" class="panel-collapse collapse">
     <div class="panel-body">
 
-
+    
 <div class="panel panel-success" style="margin-top: 10px;">
   <div class="panel-heading">
     <h4 class="panel-title">
@@ -204,13 +229,13 @@ Expecting &apos;STRING&apos;, &apos;IDENT&apos;, &apos;S&apos;, &apos;(&apos;, &
 <div class="panel panel-danger" style="margin-top: 10px;">
   <div class="panel-heading">
     <h4 class="panel-title">
-    <a data-toggle="collapse" href="#panel-collapse-15">cssnano - Failed!</a>
+    <a data-toggle="collapse" href="#panel-collapse-15">cssnano - 0/3 Failed! - There are diffs</a>
     </h4>
   </div>
   <div id="panel-collapse-15" class="panel-collapse collapse">
     <div class="panel-body">
 
-
+    
 <div class="panel panel-danger" style="margin-top: 10px;">
   <div class="panel-heading">
     <h4 class="panel-title">
@@ -235,10 +260,10 @@ Expecting &apos;STRING&apos;, &apos;IDENT&apos;, &apos;S&apos;, &apos;(&apos;, &
     </div>
   </div>
 </div>
-<div class="panel panel-danger" style="margin-top: 10px;">
+<div class="panel panel-success" style="margin-top: 10px;">
   <div class="panel-heading">
     <h4 class="panel-title">
-    github.com: No errors! - <a href="gemini-report/images/github.com/cssnano/cssnano/chrome~diff.png">diff</a>
+    github.com: No errors!
     </h4>
   </div>
   <div id="panel-collapse-18" class="panel-collapse collapse">
@@ -276,13 +301,13 @@ Expecting &apos;STRING&apos;, &apos;IDENT&apos;, &apos;S&apos;, &apos;(&apos;, &
 <div class="panel panel-danger" style="margin-top: 10px;">
   <div class="panel-heading">
     <h4 class="panel-title">
-    <a data-toggle="collapse" href="#panel-collapse-21">cssshrink - Failed!</a>
+    <a data-toggle="collapse" href="#panel-collapse-21">cssshrink - 0/3 Failed! - There are diffs</a>
     </h4>
   </div>
   <div id="panel-collapse-21" class="panel-collapse collapse">
     <div class="panel-body">
 
-
+    
 <div class="panel panel-success" style="margin-top: 10px;">
   <div class="panel-heading">
     <h4 class="panel-title">
@@ -336,13 +361,13 @@ Expecting &apos;STRING&apos;, &apos;IDENT&apos;, &apos;S&apos;, &apos;(&apos;, &
 <div class="panel panel-danger" style="margin-top: 10px;">
   <div class="panel-heading">
     <h4 class="panel-title">
-    <a data-toggle="collapse" href="#panel-collapse-26">more-css - Failed!</a>
+    <a data-toggle="collapse" href="#panel-collapse-26">more-css - 3/3 Failed! - There are diffs</a>
     </h4>
   </div>
   <div id="panel-collapse-26" class="panel-collapse collapse">
     <div class="panel-body">
 
-
+    
 <div class="panel panel-danger" style="margin-top: 10px;">
   <div class="panel-heading">
     <h4 class="panel-title">
@@ -352,7 +377,7 @@ Expecting &apos;STRING&apos;, &apos;IDENT&apos;, &apos;S&apos;, &apos;(&apos;, &
   <div id="panel-collapse-27" class="panel-collapse collapse">
     <div class="panel-body">
 
-
+    
 <div class="error">
   <a href="site/nodejs.org/css/css.css">css.css</a><br>
   <pre style="word-wrap: break-word;">TypeError: Cannot read property &apos;indexOf&apos; of undefined
@@ -412,7 +437,7 @@ Expecting &apos;STRING&apos;, &apos;IDENT&apos;, &apos;S&apos;, &apos;(&apos;, &
   <div id="panel-collapse-28" class="panel-collapse collapse">
     <div class="panel-body">
 
-
+    
 <div class="error">
   <a href="site/wordpress.org/css/css.css">css.css</a><br>
   <pre style="word-wrap: break-word;">TypeError: Cannot read property &apos;indexOf&apos; of undefined
@@ -504,7 +529,7 @@ Expecting &apos;STRING&apos;, &apos;IDENT&apos;, &apos;S&apos;, &apos;(&apos;, &
   <div id="panel-collapse-29" class="panel-collapse collapse">
     <div class="panel-body">
 
-
+    
 <div class="error">
   <a href="site/github.com/css/frameworks-119461b8a22c3dc631a815795aa9d7f436fe38386cd99a1ca106fd2798f159aa.css">frameworks-119461b8a22c3dc631a815795aa9d7f436fe38386cd99a1ca106fd2798f159aa.css</a><br>
   <pre style="word-wrap: break-word;">TypeError: Cannot read property &apos;indexOf&apos; of undefined
@@ -522,7 +547,7 @@ Expecting &apos;STRING&apos;, &apos;IDENT&apos;, &apos;S&apos;, &apos;(&apos;, &
 </div>
 
 <div class="error">
-  <a href="site/github.com/css/github-1a723b55b2ef1be875b55a21594ed7186180bb2530537ef3b195039fd4be0228.css">github-1a723b55b2ef1be875b55a21594ed7186180bb2530537ef3b195039fd4be0228.css</a><br>
+  <a href="site/github.com/css/github-fb3f5ff93b051ac1e6146d6a27dc2f57e11f1b9b36a7f15bbd84aacdb65ec3a8.css">github-fb3f5ff93b051ac1e6146d6a27dc2f57e11f1b9b36a7f15bbd84aacdb65ec3a8.css</a><br>
   <pre style="word-wrap: break-word;">TypeError: Cannot read property &apos;indexOf&apos; of undefined
     at Object.more-css (/home/deeech/Projects/git/css-minification-tests/lib/minifiers.js:73:17)
     at Object.exports.minify.err [as minify] (/home/deeech/Projects/git/css-minification-tests/lib/minifiers.js:90:35)
@@ -560,13 +585,13 @@ Expecting &apos;STRING&apos;, &apos;IDENT&apos;, &apos;S&apos;, &apos;(&apos;, &
 <div class="panel panel-danger" style="margin-top: 10px;">
   <div class="panel-heading">
     <h4 class="panel-title">
-    <a data-toggle="collapse" href="#panel-collapse-30">ncss - Failed!</a>
+    <a data-toggle="collapse" href="#panel-collapse-30">ncss - 2/3 Failed! - There are diffs</a>
     </h4>
   </div>
   <div id="panel-collapse-30" class="panel-collapse collapse">
     <div class="panel-body">
 
-
+    
 <div class="panel panel-danger" style="margin-top: 10px;">
   <div class="panel-heading">
     <h4 class="panel-title">
@@ -576,7 +601,7 @@ Expecting &apos;STRING&apos;, &apos;IDENT&apos;, &apos;S&apos;, &apos;(&apos;, &
   <div id="panel-collapse-31" class="panel-collapse collapse">
     <div class="panel-body">
 
-
+    
 <div class="error">
   <a href="site/nodejs.org/css/css.css">css.css</a><br>
   <pre style="word-wrap: break-word;">RangeError: Maximum call stack size exceeded
@@ -615,11 +640,12 @@ Expecting &apos;STRING&apos;, &apos;IDENT&apos;, &apos;S&apos;, &apos;(&apos;, &
   <div id="panel-collapse-32" class="panel-collapse collapse">
     <div class="panel-body">
 
-
+    
 <div class="error">
   <a href="site/wordpress.org/css/css.css">css.css</a><br>
   <pre style="word-wrap: break-word;">RangeError: Maximum call stack size exceeded
-    at write (/home/deeech/Projects/git/css-minification-tests/node_modules/ncss/lib/parser.js:49:17)
+    at String.slice (native)
+    at write (/home/deeech/Projects/git/css-minification-tests/node_modules/ncss/lib/parser.js:51:13)
     at _buffer (/home/deeech/Projects/git/css-minification-tests/node_modules/ncss/lib/parser.js:66:5)
     at q (/home/deeech/Projects/git/css-minification-tests/node_modules/ncss/lib/parser.js:81:12)
     at Object.handle [as token] (/home/deeech/Projects/git/css-minification-tests/node_modules/ncss/lib/parser.js:215:9)
@@ -639,14 +665,14 @@ Expecting &apos;STRING&apos;, &apos;IDENT&apos;, &apos;S&apos;, &apos;(&apos;, &
     at num (/home/deeech/Projects/git/css-minification-tests/node_modules/ncss/lib/lexer.js:77:7)
     at tokenize (/home/deeech/Projects/git/css-minification-tests/node_modules/ncss/lib/lexer.js:138:7)
     at num (/home/deeech/Projects/git/css-minification-tests/node_modules/ncss/lib/lexer.js:77:7)
-    at tokenize (/home/deeech/Projects/git/css-minification-tests/node_modules/ncss/lib/lexer.js:138:7)
-    at num (/home/deeech/Projects/git/css-minification-tests/node_modules/ncss/lib/lexer.js:77:7)</pre>
+    at tokenize (/home/deeech/Projects/git/css-minification-tests/node_modules/ncss/lib/lexer.js:138:7)</pre>
 </div>
 
 <div class="error">
   <a href="site/wordpress.org/css/dashicons.css">dashicons.css</a><br>
   <pre style="word-wrap: break-word;">RangeError: Maximum call stack size exceeded
-    at write (/home/deeech/Projects/git/css-minification-tests/node_modules/ncss/lib/parser.js:49:17)
+    at String.slice (native)
+    at write (/home/deeech/Projects/git/css-minification-tests/node_modules/ncss/lib/parser.js:51:13)
     at _buffer (/home/deeech/Projects/git/css-minification-tests/node_modules/ncss/lib/parser.js:66:5)
     at q (/home/deeech/Projects/git/css-minification-tests/node_modules/ncss/lib/parser.js:81:12)
     at Object.handle [as token] (/home/deeech/Projects/git/css-minification-tests/node_modules/ncss/lib/parser.js:215:9)
@@ -666,15 +692,14 @@ Expecting &apos;STRING&apos;, &apos;IDENT&apos;, &apos;S&apos;, &apos;(&apos;, &
     at num (/home/deeech/Projects/git/css-minification-tests/node_modules/ncss/lib/lexer.js:77:7)
     at tokenize (/home/deeech/Projects/git/css-minification-tests/node_modules/ncss/lib/lexer.js:138:7)
     at num (/home/deeech/Projects/git/css-minification-tests/node_modules/ncss/lib/lexer.js:77:7)
-    at tokenize (/home/deeech/Projects/git/css-minification-tests/node_modules/ncss/lib/lexer.js:138:7)
-    at num (/home/deeech/Projects/git/css-minification-tests/node_modules/ncss/lib/lexer.js:77:7)</pre>
+    at tokenize (/home/deeech/Projects/git/css-minification-tests/node_modules/ncss/lib/lexer.js:138:7)</pre>
 </div>
 
 <div class="error">
   <a href="site/wordpress.org/css/wp4.css">wp4.css</a><br>
   <pre style="word-wrap: break-word;">RangeError: Maximum call stack size exceeded
-    at String.toLowerCase (native)
-    at Object.handle [as token] (/home/deeech/Projects/git/css-minification-tests/node_modules/ncss/lib/parser.js:245:21)
+    at Array.indexOf (native)
+    at Object.handle [as token] (/home/deeech/Projects/git/css-minification-tests/node_modules/ncss/lib/parser.js:280:22)
     at next (/home/deeech/Projects/git/css-minification-tests/node_modules/ncss/lib/lexer.js:113:12)
     at num (/home/deeech/Projects/git/css-minification-tests/node_modules/ncss/lib/lexer.js:74:7)
     at tokenize (/home/deeech/Projects/git/css-minification-tests/node_modules/ncss/lib/lexer.js:138:7)
@@ -699,10 +724,10 @@ Expecting &apos;STRING&apos;, &apos;IDENT&apos;, &apos;S&apos;, &apos;(&apos;, &
 </div>
   </div>
 </div>
-<div class="panel panel-danger" style="margin-top: 10px;">
+<div class="panel panel-success" style="margin-top: 10px;">
   <div class="panel-heading">
     <h4 class="panel-title">
-    github.com: No errors! - <a href="gemini-report/images/github.com/ncss/ncss/chrome~diff.png">diff</a>
+    github.com: No errors!
     </h4>
   </div>
   <div id="panel-collapse-33" class="panel-collapse collapse">
@@ -739,5 +764,6 @@ Expecting &apos;STRING&apos;, &apos;IDENT&apos;, &apos;S&apos;, &apos;(&apos;, &
 </div></div>
       </div>
     </div>
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
   </body>
 </html>

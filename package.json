@@ -21,7 +21,7 @@
   "license": "MIT",
   "devDependencies": {
     "clean-css": "^3.4.20",
-    "crass": "^0.7.11",
+    "crass": "^0.7.12",
     "css-condense": "^0.1.1",
     "cssnano": "^3.8.0",
     "csso": "^2.2.1",

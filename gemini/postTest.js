@@ -57,6 +57,14 @@ gemini.suite('nodejs.org', (suite) => {
       .setCaptureElements('html')
   });
 
+  gemini.suite('cssnano (safe)', function(child) {
+    child.setUrl('/nodejs.org/cssnano (safe)_index.html')
+      .capture('cssnano (safe)', function(actions, find) {
+        actions.wait(2000);
+      })
+      .setCaptureElements('html')
+  });
+
   gemini.suite('csso', function(child) {
     child.setUrl('/nodejs.org/csso_index.html')
       .capture('csso', function(actions, find) {
@@ -181,6 +189,14 @@ gemini.suite('wordpress.org', (suite) => {
       .setCaptureElements('html')
   });
 
+  gemini.suite('cssnano (safe)', function(child) {
+    child.setUrl('/wordpress.org/cssnano (safe)_index.html')
+      .capture('cssnano (safe)', function(actions, find) {
+        actions.wait(2000);
+      })
+      .setCaptureElements('html')
+  });
+
   gemini.suite('csso', function(child) {
     child.setUrl('/wordpress.org/csso_index.html')
       .capture('csso', function(actions, find) {
@@ -300,6 +316,14 @@ gemini.suite('github.com', (suite) => {
   gemini.suite('cssnano', function(child) {
     child.setUrl('/github.com/cssnano_index.html')
       .capture('cssnano', function(actions, find) {
+        actions.wait(2000);
+      })
+      .setCaptureElements('html')
+  });
+
+  gemini.suite('cssnano (safe)', function(child) {
+    child.setUrl('/github.com/cssnano (safe)_index.html')
+      .capture('cssnano (safe)', function(actions, find) {
         actions.wait(2000);
       })
       .setCaptureElements('html')

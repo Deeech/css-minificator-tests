@@ -20,6 +20,7 @@ fs.access('../config.json', fs.constants.R_OK | fs.constants.W_OK, (err) => {
       "pages": [
         "http://nodejs.org",
         "https://wordpress.org/",
+        "https://pattle.github.io/simpsons-in-css/",
         "https://github.com/"
       ]
     };

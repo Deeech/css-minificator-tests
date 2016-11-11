@@ -16,14 +16,30 @@ console.log(quotes[Math.floor(Math.random()*quotes.length)].rainbow);
 
 fs.access('../config.json', fs.constants.R_OK | fs.constants.W_OK, (err) => {
   if (err && err.code === 'ENOENT') {
-    config = { // test config
+    config = {
       "pages": [
-        "http://nodejs.org",
-        "https://wordpress.org/",
-        "https://pattle.github.io/simpsons-in-css/",
-        "https://github.com/"
+      {
+        "name": "nodejs.org",
+        "url": "http://nodejs.org/",
+        "captureElements": "html"
+      },
+      {
+        "name": "wordpress.org",
+        "url": "https://wordpress.org/",
+        "captureElements": "html"
+      },
+      {
+        "name": "Simpsons",
+        "url": "https://pattle.github.io/simpsons-in-css/",
+        "captureElements": "#wrap"
+      },
+      {
+        "name": "github.com",
+        "url": "https://github.com/",
+        "captureElements": "html"
+      },
       ]
-    };
+    }
   } else {
     config = require('../cssTest.config.json')
   }

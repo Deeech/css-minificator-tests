@@ -39,6 +39,20 @@
 	        Here you can see results of a minificatiors tests. The script downloads a few sites, compress their css files and then launches screenshot testing all sites using <a href="https://github.com/gemini-testing/gemini">gemini</a>. You can view more details under the spoilers.
 	      </p>
 	    </div>
+	    {{#minifiers}}
+				<div class="panel" style="margin-top: 10px;">
+				  <div class="panel-heading">
+				    <h4 class="panel-title">
+				    {{title}}
+				    </h4>
+				  </div>
+				  <div id="panel-collapse-${id}" class="panel-collapse collapse">
+				    <div class="panel-body">
+
+				    </div>
+				  </div>
+				</div>
+	    {{/minifiers}}
 	  </div>
 	</div>
 	<script async defer src="https://buttons.github.io/buttons.js"></script>

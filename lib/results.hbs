@@ -43,12 +43,24 @@
 				<div class="panel" style="margin-top: 10px;">
 				  <div class="panel-heading">
 				    <h4 class="panel-title">
-				    {{title}}
+				    {{name}} {{version}}
 				    </h4>
 				  </div>
 				  <div id="panel-collapse-${id}" class="panel-collapse collapse">
 				    <div class="panel-body">
-
+							{{#sites}}
+								<div class="panel" style="margin-top: 10px;">
+								  <div class="panel-heading">
+								    <h4 class="panel-title">
+								    {{name}}
+								    </h4>
+								  </div>
+								  <div id="panel-collapse-${id}" class="panel-collapse collapse">
+								    <div class="panel-body">
+								    </div>
+								  </div>
+								</div>
+							{{/sites}}
 				    </div>
 				  </div>
 				</div>

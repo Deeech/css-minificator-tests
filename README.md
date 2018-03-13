@@ -1,4 +1,7 @@
-# css-minificator-tests
+# css-minificator-tests  [![Cult Of Martians][cult-img]][cult]
+
+[cult-img]: http://cultofmartians.com/assets/badges/badge.svg
+[cult]: http://cultofmartians.com/tasks/testing-css-minifiers.html
 
 ## Minificators
 
